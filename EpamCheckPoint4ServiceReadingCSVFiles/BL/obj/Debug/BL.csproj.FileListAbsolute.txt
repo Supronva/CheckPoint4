@@ -13,3 +13,18 @@ C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReading
 C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.dll
 C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\BL.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\BL.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\DALClassLibrary.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\EntityModel.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\EntityFramework.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapper.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\DALClassLibrary.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\EntityModel.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\EntityFramework.xml
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapper.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapper.xml
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\ru\EntityFramework.resources.dll

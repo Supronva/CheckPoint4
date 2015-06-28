@@ -17,13 +17,13 @@ namespace DALClassLibrary.DAL
         public double Sum { get; set; }
         public DateTime Date { get; set; }
 
-        public Order(Manager idmanager, Client idclient, Product idproduct, double sum, DateTime data)
+        public Order(Manager idmanager, Client idclient, Product idproduct, double sum, DateTime date)
         {
             IdManager = idmanager;
             IdClient = idclient;
             IdProduct = idproduct;
             Sum = sum;
-            Date = data;
+            Date = date;
         }
 
         public Orders ConvertToEntity()
@@ -34,7 +34,7 @@ namespace DALClassLibrary.DAL
                     _dbServiceEntities.Orders.FirstOrDefault(
                         x =>
                             x.idmanager == IdManager.ConvertToEntity().id && x.idclient == IdClient.ConvertToEntity().id &&
-                            x.idproduct == IdProduct.ConvertToEntity().id && x.sum == Sum && x.data == Date);
+                            x.idproduct == IdProduct.ConvertToEntity().id && x.sum == Sum && x.date == Date);
                 if (entity != null)
                 {
                     return entity;
@@ -46,7 +46,7 @@ namespace DALClassLibrary.DAL
                 idclient = IdClient.ConvertToEntity().id,
                 idproduct = IdProduct.ConvertToEntity().id,
                 sum = Sum,
-                data = Date
+                date = Date
             };
             return orders;
         }

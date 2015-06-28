@@ -1,10 +1,12 @@
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.dll.config
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.dll
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.pdb
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.dll
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.xml
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.csprojResolveAssemblyReference.cache
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.dll
-C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.dll.config
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityModel.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.xml
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.csprojResolveAssemblyReference.cache
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\obj\Debug\EntityModel.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\EntityModel\bin\Debug\ru\EntityFramework.SqlServer.resources.dll

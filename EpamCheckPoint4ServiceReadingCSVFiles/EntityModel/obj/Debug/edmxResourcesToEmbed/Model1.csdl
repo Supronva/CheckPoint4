@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ServiceModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBServiceEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="ServiceModel.Products" />
+    <EntitySet Name="Clients" EntityType="ServiceModel.Clients" />
+    <EntitySet Name="Managers" EntityType="ServiceModel.Managers" />
+    <EntitySet Name="Orders" EntityType="ServiceModel.Orders" />
+    <AssociationSet Name="FK_Orders_Managers" Association="ServiceModel.FK_Orders_Managers">
+      <End Role="Managers" EntitySet="Managers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Products" Association="ServiceModel.FK_Orders_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Clients" Association="ServiceModel.FK_Orders_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="ServiceModel.FK_Orders_Products" FromRole="Products" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="firstname" Nullable="false" />
+    <Property Type="String" Name="lastname" Nullable="false" />
+    <Property Type="Int32" Name="age" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="ServiceModel.FK_Orders_Clients" FromRole="Clients" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Managers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="firstname" Nullable="false" />
+    <Property Type="String" Name="lastname" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="ServiceModel.FK_Orders_Managers" FromRole="Managers" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="idmanager" Nullable="false" />
+    <Property Type="Int32" Name="idclient" Nullable="false" />
+    <Property Type="Int32" Name="idproduct" Nullable="false" />
+    <Property Type="Double" Name="sum" Nullable="false" />
+    <Property Type="DateTime" Name="date" Nullable="false" />
+    <NavigationProperty Name="Managers" Relationship="ServiceModel.FK_Orders_Managers" FromRole="Orders" ToRole="Managers" />
+    <NavigationProperty Name="Products" Relationship="ServiceModel.FK_Orders_Products" FromRole="Orders" ToRole="Products" />
+    <NavigationProperty Name="Clients" Relationship="ServiceModel.FK_Orders_Clients" FromRole="Orders" ToRole="Clients" />
+  </EntityType>
+  <Association Name="FK_Orders_Managers">
+    <End Type="ServiceModel.Managers" Role="Managers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ServiceModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Managers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="idmanager" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Products">
+    <End Type="ServiceModel.Products" Role="Products" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ServiceModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="idproduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Clients">
+    <End Type="ServiceModel.Clients" Role="Clients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="ServiceModel.Orders" Role="Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="idclient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

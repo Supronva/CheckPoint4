@@ -18,7 +18,7 @@ namespace BL
            fsw.Created +=new FileSystemEventHandler(OnCreated);
            fsw.EnableRaisingEvents = true;
            Console.WriteLine("Press \'q\' to exit.");
-           while (Console.Read() != 'q') ;
+           while (Console.Read() != 'q');
        }
 
        private static void OnCreated(object sender, FileSystemEventArgs e)
@@ -30,6 +30,8 @@ namespace BL
            {
                try
                {
+                   var parser = new Parser();
+                   parser.ParserFiles(e.FullPath, e.Name);
                    item.MoveTo(destin + item.Name);
                }
                catch (IOException exception)
