@@ -12,7 +12,7 @@ namespace DALClassLibrary
     {
         public  readonly ICollection<Order> _orderlist = new List<Order>();
 
-        public  readonly DBServiceEntities _dbServiceEntities = new DBServiceEntities();
+        public readonly ModelContainer _dbServiceEntities = new ModelContainer();
 
         public void Add(Order item)
         {
@@ -61,7 +61,8 @@ namespace DALClassLibrary
 
         public void SaveOrders()
         {
-            _dbServiceEntities.Orders.AddRange(_orderlist.Select(x => x.ConvertToEntity()));
+            var list = _orderlist.Select(order => order.ConvertToEntity()).ToList();
+            _dbServiceEntities.Orders.AddRange(list);
             _dbServiceEntities.SaveChanges();
         }
     }

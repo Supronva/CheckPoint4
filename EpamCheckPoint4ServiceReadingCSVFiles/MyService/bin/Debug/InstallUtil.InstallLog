@@ -1,0 +1,45 @@
+﻿
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+На этапе установки возникло исключение.
+System.ComponentModel.Win32Exception: Указанная служба была отмечена для удаления
+
+Начинается этап отката процедуры установки.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+Этап отката выполнен успешно.
+
+Групповая операция установки выполнена.
+
+Выполняется групповая операция установки.
+
+Начинается этап установки процедуры установки.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+Этап установки успешно выполнен, начинается этап фиксации.
+См. файл журнала выполнения операция для сборки c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.
+Данный файл находится в c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.InstallLog.
+
+Этап фиксации выполнен успешно.
+
+Групповая операция установки выполнена.

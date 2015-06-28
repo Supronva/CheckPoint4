@@ -1,0 +1,65 @@
+﻿Выполняется установка сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Устанавливается служба MyService...
+Служба MyService успешно установлена.
+Создается исходный EventLog MyService в журнале Application...
+Выполняется фиксация сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Выполняется установка сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Устанавливается служба MyService...
+Создается исходный EventLog MyService в журнале Application...
+Выполняется откат для сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Восстанавливается исходное состояние журнала событий для источника MyService.
+Выполняется установка сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Устанавливается служба MyService...
+Служба MyService успешно установлена.
+Создается исходный EventLog MyService в журнале Application...
+Выполняется фиксация сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Выполняется установка сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Устанавливается служба MyService...
+Служба MyService успешно установлена.
+Создается исходный EventLog MyService в журнале Application...
+Выполняется фиксация сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Выполняется установка сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog
+Устанавливается служба MyService...
+Служба MyService успешно установлена.
+Создается исходный EventLog MyService в журнале Application...
+Выполняется фиксация сборки 'c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+   logfile = c:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.InstallLog

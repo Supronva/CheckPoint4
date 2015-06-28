@@ -15,14 +15,14 @@ namespace EntityModel
     public partial class Orders
     {
         public int id { get; set; }
-        public int idmanager { get; set; }
-        public int idclient { get; set; }
-        public int idproduct { get; set; }
-        public double sum { get; set; }
         public System.DateTime date { get; set; }
+        public int client { get; set; }
+        public int product { get; set; }
+        public int manager { get; set; }
+        public double sum { get; set; }
     
-        public virtual Managers Managers { get; set; }
         public virtual Products Products { get; set; }
         public virtual Clients Clients { get; set; }
+        public virtual Managers Managers { get; set; }
     }
 }

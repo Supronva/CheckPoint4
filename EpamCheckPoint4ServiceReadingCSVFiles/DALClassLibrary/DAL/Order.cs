@@ -9,42 +9,30 @@ namespace DALClassLibrary.DAL
 {
     public class Order
     {
-        DBServiceEntities _dbServiceEntities = new DBServiceEntities();
-
-        public Manager IdManager { get; set; }
-        public Client IdClient { get; set; }
-        public Product IdProduct { get; set; }
-        public double Sum { get; set; }
+        private readonly ModelContainer _dbServiceEntities = new ModelContainer();
+        
         public DateTime Date { get; set; }
-
-        public Order(Manager idmanager, Client idclient, Product idproduct, double sum, DateTime date)
+        public Client Client { get; set; }
+        public Product Product { get; set; }
+        public Manager Manager { get; set; }
+        public float Sum { get; set; }
+        
+        public Order(DateTime date, Client client, Product product, Manager manager, float sum)
         {
-            IdManager = idmanager;
-            IdClient = idclient;
-            IdProduct = idproduct;
-            Sum = sum;
             Date = date;
+            Client = client;
+            Product = product;
+            Manager = manager;
+            Sum = sum;
         }
 
         public Orders ConvertToEntity()
         {
-            if (_dbServiceEntities != null)
-            {
-                var entity =
-                    _dbServiceEntities.Orders.FirstOrDefault(
-                        x =>
-                            x.idmanager == IdManager.ConvertToEntity().id && x.idclient == IdClient.ConvertToEntity().id &&
-                            x.idproduct == IdProduct.ConvertToEntity().id && x.sum == Sum && x.date == Date);
-                if (entity != null)
-                {
-                    return entity;
-                }
-            }
             var orders = new Orders()
             {
-                idmanager = IdManager.ConvertToEntity().id,
-                idclient = IdClient.ConvertToEntity().id,
-                idproduct = IdProduct.ConvertToEntity().id,
+                manager = Manager.ConvertToEntity().id,
+                client = Client.ConvertToEntity().id,
+                product = Product.ConvertToEntity().id,
                 sum = Sum,
                 date = Date
             };

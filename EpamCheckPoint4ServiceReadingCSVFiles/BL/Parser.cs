@@ -39,11 +39,11 @@ namespace BL
        private void CreateOrder(string[] item, string nameManager)
        {
            var date = Convert.ToDateTime(item[0]);
-           var idclient = new Client(item [1],null,0);
-           var idproduct = new Product(item[2]);
-           var sum = Convert.ToDouble(item[3]);
-           var idmanager = new Manager(nameManager,"");
-           _orders.Add(new Order(idmanager,idclient,idproduct,sum,date));
+           var client = new Client(item [1],null,0);
+           var product = new Product(item[2]);
+           var sum = (float)Convert.ToDouble(item[3]);
+           var manager = new Manager(nameManager,"");
+           _orders.Add(new Order(date,client,product,manager,sum));
        }
     }
 }

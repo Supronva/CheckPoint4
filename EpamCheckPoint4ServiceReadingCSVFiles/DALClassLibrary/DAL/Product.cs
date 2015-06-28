@@ -11,7 +11,7 @@ namespace DALClassLibrary.DAL
 {
     public class Product
     {
-        private DBServiceEntities _dbServiceEntities = new DBServiceEntities();
+        private readonly ModelContainer _dbServiceEntities = new ModelContainer();
 
         public string Name { get; set; }
 
@@ -32,7 +32,11 @@ namespace DALClassLibrary.DAL
             }
 
             Mapper.CreateMap<Product, Products>();
-            return Mapper.Map<Product, Products>(this);
+            var product = Mapper.Map<Product, Products>(this);
+            if (_dbServiceEntities == null) return product;
+            _dbServiceEntities.Products.Add(product);
+            _dbServiceEntities.SaveChanges();
+            return product;
         }
     }
 }

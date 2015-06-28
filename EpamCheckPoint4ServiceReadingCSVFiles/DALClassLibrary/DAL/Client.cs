@@ -10,7 +10,7 @@ namespace DALClassLibrary.DAL
 {
    public class Client
     {
-       DBServiceEntities _dbServiceEntities = new DBServiceEntities();
+       private readonly ModelContainer _dbServiceEntities = new ModelContainer();
 
        public string FirstName { get; set; }
        public string LastName { get; set; }
@@ -37,7 +37,11 @@ namespace DALClassLibrary.DAL
            }
 
            Mapper.CreateMap<Client, Clients>();
-           return Mapper.Map<Client, Clients>(this);
+           var client = Mapper.Map<Client, Clients>(this);
+           if (_dbServiceEntities == null) return client;
+           _dbServiceEntities.Clients.Add(client);
+           _dbServiceEntities.SaveChanges();
+           return client;
        }
     }
 }

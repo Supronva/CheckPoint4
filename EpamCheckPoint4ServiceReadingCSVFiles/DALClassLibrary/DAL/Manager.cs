@@ -11,7 +11,7 @@ namespace DALClassLibrary.DAL
 {
     public class Manager
     {
-        DBServiceEntities _dbServiceEntities = new DBServiceEntities();
+        private readonly ModelContainer _dbServiceEntities = new ModelContainer();
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -34,7 +34,11 @@ namespace DALClassLibrary.DAL
                 }
             }
             Mapper.CreateMap<Manager, Managers>();
-            return Mapper.Map<Manager, Managers>(this);
+            var manager = Mapper.Map<Manager, Managers>(this);
+            if (_dbServiceEntities == null) return manager;
+            _dbServiceEntities.Managers.Add(manager);
+            _dbServiceEntities.SaveChangesAsync();
+            return manager;
         }
     }
 }

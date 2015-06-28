@@ -11,7 +11,7 @@ namespace BL
    {
        private static readonly FileSystemWatcher fsw = new FileSystemWatcher();
 
-       public static void Run()
+       public void Run()
        {
            fsw.Path = @"D:\Watcher\New\";
            fsw.Filter = "*.csv";
@@ -41,7 +41,7 @@ namespace BL
            }
        }
 
-       public static void Stop()
+       public void Stop()
        {
            fsw.Created -=new FileSystemEventHandler(OnCreated);
            fsw.EnableRaisingEvents = false;

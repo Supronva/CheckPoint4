@@ -28,3 +28,4 @@ C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapp
 C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapper.xml
 C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\obj\Debug\BL.pdb
 C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\BL\bin\Debug\AutoMapper.Net4.dll

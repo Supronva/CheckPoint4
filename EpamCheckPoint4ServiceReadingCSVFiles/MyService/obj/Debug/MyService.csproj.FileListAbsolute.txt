@@ -1,0 +1,9 @@
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe.config
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.exe
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\bin\Debug\MyService.pdb
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.csprojResolveAssemblyReference.cache
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.ProjectInstaller.resources
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.MyService.resources
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.csproj.GenerateResource.Cache
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.exe
+C:\Users\oag\Desktop\EpamCheckPoint4ServiceReadingCSVFiles\MyService\obj\Debug\MyService.pdb

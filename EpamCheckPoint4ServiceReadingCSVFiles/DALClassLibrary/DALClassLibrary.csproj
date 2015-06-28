@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EntityModel\EntityModel.csproj">
-      <Project>{13161C15-A0D8-4B76-A501-612537220B8E}</Project>
+      <Project>{3a8e4962-511d-4388-aa54-37250f3011f2}</Project>
       <Name>EntityModel</Name>
     </ProjectReference>
   </ItemGroup>
