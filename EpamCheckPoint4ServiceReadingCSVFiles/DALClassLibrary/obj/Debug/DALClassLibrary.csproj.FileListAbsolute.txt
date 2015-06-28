@@ -1,0 +1,17 @@
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\AutoMapper.Net4.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\DALClassLibrary.dll.config
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\DALClassLibrary.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\DALClassLibrary.pdb
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\AutoMapper.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityModel.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityModel.pdb
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\AutoMapper.pdb
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\AutoMapper.xml
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\obj\Debug\DALClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\obj\Debug\DALClassLibrary.dll
+C:\Users\oag\Documents\Visual Studio 2012\Projects\EpamCheckPoint4ServiceReadingCSVFiles\DALClassLibrary\obj\Debug\DALClassLibrary.pdb
